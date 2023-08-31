@@ -1,3 +1,2 @@
-cd /tmp/sym  # Navigate to the desired directory
-ln -s /bin/ls __ls__  # Create the symbolic link
-ls -la  # List the contents of the directory to verify
+#!/bin/bash
+ln -s /bin/ls __ls__
